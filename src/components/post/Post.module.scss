@@ -1,0 +1,113 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.iconLink{
+  display: flex;
+  width: 75px;
+  margin: 0;
+  text-decoration: none;
+  color: black;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+.userName{
+  display: inline-block;;
+  width: 30px;
+  font-size: 1rem ;
+}
+
+.titlePost{
+  width: 600px;
+  margin: 0;
+  padding-bottom: 5px;
+  @media (max-width: 376px) {
+    width: 100%;
+    font-size: 18px;
+  }
+}
+
+.body{
+  padding-bottom: 10px;
+  text-align:justify;
+  width: 600px;
+  margin: 0;
+  @media (max-width: 376px) {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+
+.wrapperPicture{
+  padding: 20px;
+  @media (max-width: 376px) {
+    padding: 0;
+    padding-bottom: 10px;
+  }
+  .picture{
+    width: 400px;
+    height: 400px;
+    @media (max-width: 376px) {
+      width: 265px;
+      height: 265px;
+    }
+  }
+
+}
+
+.button{
+  width: 130px;
+  background-color: #565e64;
+  color: white;
+
+  &:hover{
+    opacity: 0.9;
+    color: black;
+  }
+}
+
+.comment{
+  margin: 5px 0;
+  width: 100%;
+  background-color: #c5c0c0;
+  text-align:justify;
+  border-radius: 5px;
+  padding:10px;
+  @media (max-width: 376px) {
+    width: 100%;
+  }
+}
+.emailComment{
+  font-size: 1rem;
+  @media (max-width: 376px) {
+    font-size: 15px;
+    margin: 0;
+  }
+}
+.textComment{
+  margin: 0;
+  width: 550px;
+  @media (max-width: 376px) {
+    font-size: 13px;
+    width: 100%;
+  }
+}
+.inputContainer{
+  width: 100%;
+  padding-top: 20px;
+  .input{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .buttonContainer{
+  padding-top: 20px;
+  padding-bottom: 5px;
+  }
+}
+

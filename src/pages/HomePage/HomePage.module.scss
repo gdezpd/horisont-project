@@ -1,0 +1,45 @@
+.containerHome {
+  position: relative;
+  width: 630px;
+  padding-top: 88px;
+  @media (max-width: 376px) {
+    font-size: 15px;
+    width: 100%;
+    padding: 73px 20px 0 20px;
+  }
+}
+
+.wrapperPost {
+  padding: 10px 15px 20px 15px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #e7e4e4;
+
+}
+
+.toolsWrapper {
+  display: flex;
+}
+
+.button {
+  padding: 0 20px;
+  height: 38px;
+  width: 170px;
+
+  &:hover {
+    background-color: #333333;
+  }
+
+  @media (max-width: 376px) {
+    font-size: 15px;
+  }
+}
+
+.spinner {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center ;
+  justify-content: center;
+}
